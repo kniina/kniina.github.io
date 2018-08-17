@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Visualization Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                           
+      </button>
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+       	<li class="dropdown">
+       		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+        		<ul class="dropdown-menu">
+         		    <li><a href="temp.html">Max Temperature</a></li>
+         		    <li><a href="humidity.html">Humidity</a></li>
+         		    <li class="active"><a href="cloudiness.html">Cloudiness <span class="sr-only">(current)</span></a></li>
+        		    <li><a href="windspeed.html">Wind Speed</a></li>
+        		</ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<!-- Use bootstrap grid for responsive display -->
+<div class="container">
+    <br>
+        <div class="row">
+            <div class="col-xs-12 col-md-8 form-group">
+                <div class="page-header">
+                    <h1>Cloudiness</h1>
+                </div>
+                <a href="cloudiness.html"><img class="img-responsive" src="Resources/assets/images/Cloudiness.png" alt="Cloudiness"></a>
+                <p>Cloudiness varies with distance from the equator. Generally, cities with the most cloud coverage are located between the tropics starting at 
+                    latitude 23.5° (the Tropic of Cancer and Tropic of Capricorn) and the temperate zones (normally referring to latitudes 35–66.5°) 
+                    north and south of the Equator. However, based on the current analysis, cities in the Northern hemisphere experiencing Summer tended to 
+                    be more cloudy than those in the Southern hemisphere experiencing Winter.</p>
+            </div>
+       
+            <div class="col-xs-12 col-md-3 form-group">
+                    <div class="page-header">
+                        <h3>Visualizations</h3>
+                    </div>
+                    <div class="container"></div>
+                        <div class="row"></div>
+                            <div class="col-xs-3 col-md-6">   
+                            <a href="temp.html"><img class="img-responsive" src="Resources/assets/images/Temperature.png" alt="Max Temperature"></a>  
+                            </div>
+    
+                            <div class="col-xs-3 col-md-6">   
+                            <a href="humidity.html"><img class="img-responsive" src="Resources/assets/images/Humidity.png" alt="Humidity"></a>
+                            </div>
+    
+                            <div class="col-xs-3 col-md-6">   
+                            <a href="cloudiness.html"><img id="imgActive" class="img-responsive" src="Resources/assets/images/Cloudiness.png" alt="Cloudiness"></a>
+                            </div>
+    
+                            <div class="col-xs-3 col-md-6">   
+                            <a href="windspeed.html"><img class="img-responsive" src="Resources/assets/images/Wind Speed.png" alt="Wind Speed"></a>  
+                            </div>
+                        </div>
+                    </div>
+            </div>   
+        </div>
+    </div>
+    
+<div class="page-wrap"></div>
+      
+<footer class="site-footer">
+    <p>© Copyright Kaori Niina 2018</p>
+            
+   <!-- Add social media icons using font awesome stylesheet to footer -->
+    <a href="https://github.com/kniina" class="fa fa-github"></a>
+    <a href="https://twitter.com/moderata_strata" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/kaoriniina/" class="fa fa-linkedin"></a>
+</footer>
+
+</body>
+</html>
+    

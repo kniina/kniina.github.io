@@ -1,0 +1,138 @@
+/* Style for body background */
+  body{
+  background-color: rgb(222, 222, 222)  
+  }
+
+/* Style column backgrounds */
+  .col-md-3{
+  background-color:white;
+  float: right; 
+  position: relative;
+  padding: 2%;
+  }
+
+  .col-md-6{
+  background-color:white;
+  padding: 2%;
+  } 
+
+  .col-md-8{
+  background-color:white;
+  padding: 2%;
+  } 
+
+  .col-xs-3{
+  background-color:white;
+  padding: 2%;
+  } 
+  
+  .col-xs-12{
+  background-color:white;
+  padding: 2%;
+    }
+
+/* Style for h1 page headers */
+  .page-header{
+    color:  rgb(43, 159, 141);
+  }
+
+/* Style for navigation bar latitude header */
+  .navbar-default .navbar-brand {
+    background: rgb(43, 159, 141);
+    color: rgba(255, 255, 255, 0.913);
+  }
+
+/* Style h4 headers */
+  h4{
+    font-size: 25px;
+    text-align: center;
+    color:  rgb(43, 159, 141);
+  }
+
+/* Style image on body of homepage */
+#img01 {
+  float: left;
+  width: 200px;
+}
+
+/* Create border around image of related active site */
+#imgActive {
+  border: 1px;
+  outline-style: solid;
+  outline-color:rgb(18, 93, 133);
+}
+
+/* Styling for responsive images */
+.img-responsive {
+  padding: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for footer */
+  html, body {
+    height: 47%;
+  }
+
+  .page-wrap {
+    min-height: 120%;
+  }
+
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+
+  .site-footer, .page-wrap:after {
+    height: 150px; 
+  }
+  
+  .site-footer {
+    padding: 20px 5px;
+    border-top: 5px solid;
+    border-top-color: rgb(43, 159, 141);
+    background-color: rgb(99, 106, 105);
+    font-size: 14px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+    font-weight: bolder
+  }
+
+  a{
+    color: rgb(43, 159, 141);
+    font-weight:bold;
+  }
+
+  a:hover, a:active {
+    background-color:  rgba(255, 255, 255, 0.913);
+    text-decoration: none;
+  }
+
+  /* Style social media icons in footer */
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 10px 30px;
+    border-radius: 60%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+  .fa-github {
+  background: black;
+  color: white;
+}
